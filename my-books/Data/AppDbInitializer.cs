@@ -24,7 +24,6 @@ namespace my_books.Data
                         DateRead = DateTime.Now.AddDays(-10),
                         Rate = 4,
                         Genre = "Biography",
-                        Author = "Bill D. Killer",
                         CoverUrl = "http://....",
                         DateAdded = DateTime.Now.AddDays(-60)
                     },
@@ -34,7 +33,6 @@ namespace my_books.Data
                         Descrition = "This is my secon book in the database",
                         IsRead = false,
                         Genre = "Drama",
-                        Author = "Bill Love",
                         CoverUrl = "http://....",
                         DateAdded = DateTime.Now
                     });
