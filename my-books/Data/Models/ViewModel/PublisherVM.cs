@@ -9,4 +9,16 @@ namespace my_books.Data.Models.ViewModel
     {
         public string Name { get; set; }
     }
+
+    public class PublisherWithBooksAndAuthorsVM
+    {
+        public string Name { get; set; }
+        public List<BookAthorsVM> BookAthors { get; set; }
+    }
+
+    public class BookAthorsVM
+    {
+        public string BookName { get; set; }
+        public List<string> BookAuthors { get; set; }
+    }
 }
